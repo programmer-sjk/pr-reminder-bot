@@ -1,0 +1,28 @@
+{
+  "name": "pr-reminder-bot",
+  "version": "1.0.0",
+  "description": "## 배경",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/programmer-sjk/pr-reminder-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/programmer-sjk/pr-reminder-bot/issues"
+  },
+  "homepage": "https://github.com/programmer-sjk/pr-reminder-bot#readme",
+  "dependencies": {
+    "config": "^3.3.10",
+    "node-fetch": "^3.3.2",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  }
+}
