@@ -1,0 +1,8 @@
+{
+  "github": {
+    "id": "githubId",
+    "token": "githubToken",
+    "owner": "owner",
+    "repos": ["a-server", "b-server"]
+  }
+}
