@@ -1,8 +1,11 @@
 {
   "github": {
-    "id": "githubId", // https://docs.github.com/en/rest/users/users?apiVersion=2022-11-28#get-the-authenticated-user
-    "token": "githubToken", // https://github.com/settings/tokens
-    "owner": "owner", // 자기 계정 or https://github.com/settings/organizations
+    "id": "githubId",
+    "token": "githubToken",
+    "owner": "owner",
     "repos": ["a-server", "b-server"]
+  },
+  "slack": {
+    "botToken": "slackBotToken"
   }
 }
