@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/programmer-sjk/pr-reminder-bot#readme",
   "dependencies": {
+    "@slack/web-api": "^7.0.1",
     "config": "^3.3.10",
     "node-fetch": "^3.3.2",
     "octokit": "^3.1.2"
