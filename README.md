@@ -33,3 +33,13 @@
 - node example.js로 실행
   - repos에 입력한 Repository 중 나에게 할당된 PR 목록을 추출
   - 추출한 리뷰 목록을 Slack 메시지로 변환해 전송
+
+## 실행 결과
+
+- 리뷰 목록을 전달했을 때 Slack 메시지
+
+  <img src="https://github.com/programmer-sjk/pr-reminder-bot/blob/main/images/slack-message.png" width="400">
+
+- 리뷰 목록이 없을 때 Slack 메시지
+
+  <img src="https://github.com/programmer-sjk/pr-reminder-bot/blob/main/images/no-review-message.png" width="400">
