@@ -2,7 +2,7 @@
 
 ## 배경
 
-- 회사 코드가 MSA로 **`여러 Repository에서 관리`**되는 환경에 있다.
+- 회사 코드가 MSA로 **`여러 Repository에서 관리`** 되는 환경에 있다.
 - 매일 출근해서 리뷰를 하는데 **`두 단계로`** 나뉘어진다.
   - [review-requested](https://github.com/pulls/review-requested) 페이지에서 나에게 요청은 왔으나 리뷰를 한 적 없는 PR을 리뷰한다.
   - github 각 Repository에서 pulls 페이지를 들어가 comment를 단 적이 있는 PR을 찾아 리뷰한다.
@@ -27,7 +27,7 @@
 
 - `config/default.json` 파일에 Github, Slack botToken에 적절한 값을 입력한다.
   - `Github ID`: Github 계정의 number ID로 `https://api.github.com/users/your_github_user_name` 접속하면 확인할 수 있다.
-  - `Github Token`: <https://github.com/settings/tokens> 페이지에서 생성한 토큰
+  - `Github Token`: `https://github.com/settings/tokens` 페이지에서 생성한 토큰
   - `Github Repos`: Review 목록을 요청받기 위한 Repository 배열. `ex) ['order-server', 'api-server']`
   - `Slack BotToken`: Slack으로 메시지를 보내기 위해 발급하는 토큰
 - `node example.js`로 실행
